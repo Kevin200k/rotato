@@ -1,4 +1,4 @@
-{
+let MatchData = {
     "matches": [
       {
         "date": "2024-10-05",
