@@ -1,19 +1,7 @@
-// Insert your own API keys here
-const premierLeagueAPIKey = 'YOUR_FOOTBALL_DATA_API_KEY';
-const nbaAPIKey = 'YOUR_NBA_API_KEY';
-const nflAPIKey = 'YOUR_NFL_API_KEY';
-
+import MatchData from "./data";
 // Premier League (Soccer) API Integration
 async function fetchPremierLeagueData() {
-    try {
-        const response = await fetch(`https://api.football-data.org/v2/competitions/PL/matches`, {
-            headers: { 'X-Auth-Token': premierLeagueAPIKey }
-        });
-        const data = await response.json();
-        displayPremierLeagueMatches(data.matches);
-    } catch (error) {
-        console.error('Error fetching Premier League data:', error);
-    }
+    console.log(MatchData)
 }
 
 function displayPremierLeagueMatches(matches) {
