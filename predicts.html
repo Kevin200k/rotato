@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Prediction & Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sports Prediction & Analysis</h1>
+        <nav>
+            <ul>
+                <li><a href="#basketball">Basketball</a></li>
+                <li><a href="#soccer">Soccer</a></li>
+                <li><a href="#american-football">American Football</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="basketball">
+        <h2>Basketball Predictions</h2>
+        <div class="analysis">
+            <p>Latest Basketball game analysis and predictions based on sample matches:</p>
+            <button onclick="predictBasketball()">Get Basketball Prediction</button>
+            <p id="basketballPrediction"></p>
+        </div>
+    </section>
+
+    <section id="soccer">
+        <h2>Soccer Predictions</h2>
+        <div class="analysis">
+            <p>Latest Soccer game analysis and predictions based on sample matches:</p>
+            <button onclick="predictSoccer()">Get Soccer Prediction</button>
+            <p id="soccerPrediction"></p>
+        </div>
+    </section>
+
+    <section id="american-football">
+        <h2>American Football Predictions</h2>
+        <div class="analysis">
+            <p>Latest American Football game analysis and predictions based on sample matches:</p>
+            <button onclick="predictFootball()">Get Football Prediction</button>
+            <p id="footballPrediction"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sports Prediction & Analysis. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
